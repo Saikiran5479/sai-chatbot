@@ -1,0 +1,28 @@
+.img-pri{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30PX 30PX;
+    font-size: 13px;
+    padding-left: 150px;    
+}
+.menu-item-image{
+    border-radius: 5px;
+    width: 150px;
+}
+.menu-item-card{
+    border-radius: 12px;
+    width: 160px;
+}
+.menu-item-image:hover{
+    height: 160px;
+    width: 155px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}

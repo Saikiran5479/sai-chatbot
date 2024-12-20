@@ -1,0 +1,240 @@
+
+  #navItem1{
+color: whitesmoke;
+font-family: 'Arial',sans-serif;
+}
+#navItem2{
+color: whitesmoke;
+font-family: 'Arial',sans-serif;
+}
+#navItem3{
+color: whitesmoke;
+font-family: 'Arial',sans-serif;
+}
+#navItem4{
+color: whitesmoke;
+font-family: 'Arial',sans-serif;
+}
+.nav-ht{
+    height: 55px;
+    background-color: rgb(227, 223, 214);
+}
+.logo{
+    height: 35px;
+    width: 50px;
+    border-radius: 35%;
+
+}
+.navbar-nav{
+    margin-left: auto;
+}
+/* -----------------banner section------------------ */
+.banner{
+    height: 100vh;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-heading{
+    color: wheat;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight:300 ;
+}
+.banner-caption{
+    color: wheat;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight:300 ;
+}
+.custom-menubutton{
+    width: 145px;
+    height: 45px;
+    color: whitesmoke;
+    background-color:transparent;
+    border-color: rgb(2, 16, 6);
+    border-width: 2px;
+    border-radius: 14px;
+    border-style: solid;
+    margin-right: 10px;
+    font-family: "Roboto" , sans-serif;   
+}
+.custom-menubutton:hover{
+    box-shadow:5px 5px 20px rgb(4, 50, 4);
+    height: 50px;
+    width: 150px;
+    background-color: rgb(40, 212, 40);
+}
+.custom-orderbutton{
+    width: 130px;
+    height: 45px;
+    color: rgb(2, 16, 6);
+    background-color:rgb(17, 222, 37);
+    border-color: rgb(2, 16, 6);
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    
+
+     
+}
+.custom-orderbutton:hover{
+    box-shadow:4px 4px 20px rgb(4, 50, 4);
+    height: 50px;
+    width: 150px;
+    background-color: rgb(40, 212, 40);
+}
+
+/* ---------why choose us?------------ */
+.wcu-section{
+    background-color: #f9fbfe;
+}
+.wcu-section-heading{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+.wcu-card{
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e5eaf4;
+    border-radius: 30px;
+}
+.wcu-card-image{
+    height: 150px;
+    width: 250px;
+}
+.wcu-card-title{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 35px;
+    color: #323f4b;
+}
+.wcu-card-description{
+    font-family: "Roboto";
+    font-size: 16px;
+    color:#7b8794;
+}
+.offers{
+    color:#323f4b;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*---------- explore menu sectiion------------- */
+.explore-menu-section{
+   background-color: white; 
+}
+.menu-heading{
+   font-family: "Roboto";
+   font-weight: 700;
+   font-size: 45px;
+   color: #183b56;  
+   text-align: center;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.menu-item-image {
+    border-radius: 16px;
+    width: 290px;
+    height: 250px;
+
+}
+.menu-item-card{
+    border-radius: 12px;
+    width: 300px;
+    margin-left: 35px;
+}
+.menu-img{
+    height: 350px;
+}
+.menu-item-link {
+    color: rgb(175, 17, 181);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /* -----thanking section---- */
+  .thanking-customers-section {
+    background-color: #d0b2001a;
+    text-align: center;
+  }
+  .thanking-customers-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+  }
+  .thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+  /* -------chatbot------- */
+  .chatbot{
+    position: fixed;
+    margin-left: 76%;
+    bottom: 5px;
+  }
+  /* -------follow us section--------- */
+  .follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+  }
+  .icon{
+    font-weight: 700;
+    font-size: 28px;
+    padding: 6px; 
+  }
+  /* ---------footer section------------- */
+  .footer-section {
+    background-color: #0d2436;
+    margin-bottom: 0;
+  }
+  .footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+  .footer-logo{
+    height: 80px;
+    border-radius: 4px;
+  }
+.iframe-container{
+    height: 400px;
+    overflow: hidden;
+}
+
+
+
+
+ 
+  
+ 
